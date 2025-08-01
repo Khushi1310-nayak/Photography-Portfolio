@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Photography Portfolio</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<aside>
+<ul class="links">
+<li onclick="navigate(0)" class="activelink"><i class="fa-solid fa-house"></i>
+<p>Home</p>
+</li>
+        
+<li onclick="navigate(1)" class="activelink"><i class="fa-solid fa-user"></i>
+<p>About</p>
+</li>
+            
+<li onclick="navigate(2)" class="activelink"><i class="fa-solid fa-image"></i>
+<p>Gallery</p>
+</li>
+                
+<li onclick="navigate(3)" class="activelink"><i class="fa-solid fa-layer-group"></i>
+<p>Category</p>
+</li>
+
+<li onclick="navigate(4)" class="activelink"><i class="fa-solid fa-blog"></i>
+<p>Blog</p>
+</li>
+
+<li onclick="navigate(5)" class="activelink"><i class="fa-solid fa-envelope"></i>
+<p>Contact Me</p>
+</li>
+                    
+</ul>
+</aside>
+
+<div class="swiper mySwiper">
+   <div class="Slidecontainer swiper-wrapper">
+    <div class="swiper-pagination"></div>
+
+<div class="swiper-slide home-slide">
+<div class="HomeContent">
+<h1>Hi, I'm <span class="stylized-name">Manisa Nayak</span>,</h1>
+<h2>A <span class="professions"> Photographer</span></h2>
+<p class="heroline">My photography skills are more than just technical—they're magical.</p><br>
+
+<p class="heroline">Through my lens, I capture the whispers of nature, the raw innocence of animals, and the tender, unscripted moments between lovers. Each photograph I take is a piece of a living memory—timeless, emotional, and deeply personal.</p><br> 
+
+<p class="heroline">Photography isn’t just my passion—it’s my love letter to the world.</p>
+</div>
+<div class="SideImg">
+<div class="top-right-corner">
+<hr class="hr1">
+<hr class="hr2">
+</div>
+<img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Photography.webp" alt="Photographer at work">
+<div class="bottom-left-corner">
+<hr class="hr1">
+<hr class="hr2">
+</div>
+</div>
+</div>
+
+<div class="swiper-slide">
+  <div class="about-us-container">
+    <div class="about-us-text">
+      <h1 class="heading">About Me</h1><br>
+      <h3 class="sub-heading">I'm Manisa Nayak, A Photographer</h3>
+<p class="aboutme-details">
+As a photographer, I see the world through a lens that captures more than just light—it captures emotion, story, and fleeting moments that might otherwise go unnoticed. Every click of my camera is a decision, an instinct, a reflection of how I interpret the world around me.</p><br>
+
+<p class="aboutme-details">
+I chase the golden hour, where the sun spills warmth onto everything it touches, and I embrace the unpredictability of shadows that dance in the evening light. Whether I’m capturing the raw intensity of a street scene, the quiet intimacy of a portrait, or the vast, breathtaking expanse of nature, my goal remains the same—to tell a story that resonates.</p><br>
+
+<p class="aboutme-details">
+Photography isn’t just about taking pictures; it’s about seeing. It’s about patience, perspective, and presence. Through my work, I strive to freeze time, to create something that lingers in the mind long after the image is seen.</p><br>
+
+      <div class="skill-bar">
+      <h4 class ="skills">My Skills Are: </h4>
+      <ul>
+        <li>
+          <p>Technical Proficiency</p>
+          <div class="bar"><div class="active-bar skill-99"></div></div>
+        </li>
+        <li>
+          <p>Creativity & Artistic Vision</p>
+          <div class="bar"><div class="active-bar skill-99"></div></div>
+        </li>
+        <li>
+          <p>Attention to Detail</p>
+          <div class="bar"><div class="active-bar skill-99"></div></div>
+        </li>
+        <li>
+          <p>Communication & People Skills</p>
+          <div class="bar"><div class="active-bar skill-99"></div></div>
+        </li>
+        <li>
+          <p>Business & Marketing Skills</p>
+          <div class="bar"><div class="active-bar skill-99"></div></div>
+        </li>
+      </ul>
+      </div>
+    </div>
+
+ <div class="about-us-image">
+<img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Khushi1.png" alt="Photographer Manisa" />
+</div>    
+</div>
+</div>
+
+
+<div class="swiper-slide gallery">
+<div>
+<h1 class="heading">Gallery</h1>
+    <h2>Explore the gallery 📸</h2>
+<ul>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Mountain.jpg" alt="Mountain" onclick="openLightbox(this)"></li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Forest.jpg" alt="Forest" onclick="openLightbox(this)"></li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Sea.jpg" alt="Sea" onclick="openLightbox(this)"></li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Eiffel Tower.jpeg" alt="Eiffel Tower" onclick="openLightbox(this)"></li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Cherry Blossom.jpg" alt="Cherry Blossom" onclick="openLightbox(this)"></li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Dolphins.jpg" alt="Dolphins" onclick="openLightbox(this)"></li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\London Bridge.jpg" alt="London Bridge" onclick="openLightbox(this)"></li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Han river.jpg" alt="Han River" onclick="openLightbox(this)"></li>
+</ul>
+</div>
+</div>
+
+<div class="swiper-slide category">
+<div>
+    <h1 class="heading2"><a href ="Category.html" class="green">Category</a></h1>
+    <h2>Category to explore its magic ✨</h2>
+<ul>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Portrait.jpg" alt="Portrait" onclick="openLightbox(this)">Portrait</li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Street.jpg" alt="Street" onclick="openLightbox(this)"> Streets</li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Fashion.jpg" alt="Fashion" onclick="openLightbox(this)"> Fashion</li>
+<li class="project"><img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" alt="Nature" onclick="openLightbox(this)"> Nature</li>
+<li class="project"><img src="C:\Users\DELL\Desktop\Mini Project\Photography Portfolio\Editorial.jpg" alt="Editorial" onclick="openLightbox(this)"> Editorial</li>
+<li class="project"><img src="https://www.aaronreedphotography.com/images/xl/Dancing-In-The-Darkness-Web-2018.jpg" alt="Abstract" onclick="openLightbox(this)"> Abstract</li>
+
+</ul>
+</div>
+</div>
+
+<div class="swiper-slide blog">
+<div>
+    <h1 class="heading1"><a href ="Blog.html" id ="green">Blog</a></h1>
+    <h2>Blog to explore my works ✨</h2>
+<ul>
+<li class="project"><img src="https://static.toiimg.com/photo/65292208.cms" alt="Experience" onclick="openLightbox(this)">Experience</li>
+<li class="project"><img src="https://i.ytimg.com/vi/jAk_xhs0Rcw/maxresdefault.jpg" alt="Tips" onclick="openLightbox(this)">Tips</li>
+<li class="project"><img src="https://media.istockphoto.com/id/1217531052/photo/latest-update-text-with-notepad-keyboard-decorative-vase-and-fountain-pen-on-wooden-background.jpg?s=612x612&w=0&k=20&c=jkeYpOqUg6AyyyTHqJbGBn28Zug-w98T2lyWh7y0Hl8=" alt="Updates" onclick="openLightbox(this)">Updates</li>
+</ul>
+</div>
+</div>
+
+
+<div class="swiper-slide contactMe">
+<h1 class="heading">Contact Me</h1>
+<div class="contactinfo"><i class="fa-solid fa-phone"></i>
+<h3>Mobile No:</h3>
+<p>7077780027</p>
+</div>
+<div class="contactinfo">
+  <i class="fa-solid fa-location-dot"></i>
+  <h3>Location:</h3><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834887.821658781!2d81.79480543743445!3d20.175407464019045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a226aece9af3bfd%3A0x133625caa9cea81f!2sOdisha!5e0!3m2!1sen!2sin!4v1746787521792!5m2!1sen!2sin"
+      width="100%" 
+      height="200" 
+      class="map-iframe"
+      title="Map showing Odisha location"
+      allowfullscreen="" 
+      loading="lazy">
+  </iframe>
+</div>
+
+<div class="contactinfo"><i class="fa-solid fa-envelope"></i>
+<h3>Email:</h3>
+<p>khushinayak127@gmail.com</p>
+</div>
+<div class="contactinfo"><i class="fa-solid fa-globe"></i>
+<h3>Website:</h3>
+<p>https://www.LensandPhotos.com/</p>
+</div>
+<form onsubmit="return showMessage()">
+   <h2>Send Me A Message 
+      <div class="SocialLinks">
+          <a href="https://www.instagram.com/bangtan_123494/?__pwa=1#" target="_blank" rel="noopener" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://x.com/Manisha55107535" target="_blank" rel="noopener" title="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="http://www.youtube.com/@manishanayak3863" target="_blank" rel="noopener" title="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+          </a>
+      </div>
+  </h2>
+  
+
+<input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email">
+                <textarea rows="4" placeholder="Type Your Message Here..."></textarea>
+                <button type="submit" class="primary">Send</button>
+<p id="messageSent">Your message is sent.</p>
+
+</form>
+<footer>
+    <ul>
+    <li>Copyright &copy; 2025 Manisa Nayak</li>
+    </ul>
+    </footer>
+    
+</div>
+</div>
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="Expanded Image">
+</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "slide",
+        allowTouchMove: true,
+        mousewheel: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+
+    function navigate(index) {
+        let links = document.querySelectorAll(".links li");
+        links.forEach(li => li.classList.remove("activelink"));
+        links[index].classList.add("activelink");
+        swiper.slideTo(index, 1000, true);
+    }
+
+    function openLightbox(img) {
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        lightboxImg.src = img.src;
+        lightbox.style.display = "flex";
+    }
+
+    function closeLightbox() {
+        document.getElementById("lightbox").style.display = "none";
+    }
+
+    function showMessage() {
+        document.getElementById("messageSent").style.display = "block";
+        setTimeout(() => {
+            document.querySelector("form").reset();
+        }, 500);
+        setTimeout(() => {
+            document.getElementById("messageSent").style.display = "none";
+        }, 4000);
+        return false; 
+    }
+</script>
+
+
+</body>
+</html>
